@@ -8,11 +8,12 @@
   <link rel="stylesheet" href="css/main.css" />
   <link rel="stylesheet" href="css/nav.css" />
   <style>
-      .hamlet{
-          /*
+      /*
+      #play span{
+          
           background-color: yellow;
-          */
-      }
+          
+      }*/
   </style>
  </head>
  <body>
@@ -26,9 +27,13 @@
      </header>
      
    <main class="wrapper">
-    <p><span onclick="this.style.backgroundColor='yellow'">Hamlet: To be or not to be?</span></p>
-    <p>Skull:Are you talking to me?</p>
-    <p>Hamlet: What did tou say?</p>
+       <div id="play">
+            <p><span data-actor="hamlet">Hamlet: To be or not to be?</span></p>
+            <p><span data-actor="skull">Skull:Are you talking to me?</span></p>
+            <p><span data-actor="hamlet">Hamlet: What did you say?</span></p>
+            <p><span data-actor="skull">Skull:I can;t talk, I am only a skull</span></p>
+            <p><span data-actor="hamlet">Hamlet: ohh good, we are here baby</span></p>
+      </div>
      <footer>
       <p><small>&copy; 2022 by 
           Tadesse Adhanom, All Rights Reserved ~ 
